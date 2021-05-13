@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Font-Size-Adjust</title>
+	<link rel="stylesheet" type="text/css" href="font.css">
+
+</head>
+<body>
+
+	<div class="outer">
+		<div class="navbar">
+			<ul>
+				<li><a href="font-home.html">Home</a></li>
+				<li><a href="font-size.html">Font-Size</a></li>
+				<li><a href="font-family.html">Font-Family</a></li>
+				<li><a href="font-stretch.html">Font-Stretch</a></li>
+				<li><a href="font-weight.html">Font-Weight</a></li>
+				<li><a href="font-style-variant.html">Font-style and Font-variant</a></li>
+				<li><a href="font-size-adjust.html">Font-size-adjust</a></li>
+			</ul>
+		</div>	
+		<h1>FONT-SIZE-ADJUST PROPERTY</h1>
+		<div class="desp">
+			<h2>Description</h2>
+			<p>The font-size-adjust property gives you better control of the font size when the first selected font is not available.<br>When a font is not available, the browser uses the second specified font. This could result in a big change for the font size. To prevent this, use the font-size-adjust property.</p>
+			<hr>
+		</div>
+		<div class="samp">
+			<h2>Syntax</h2>
+			<p> font-size-adjust: number|none|initial|inherit;</p>
+			<hr>
+		</div>
+		<div class="attributes">
+
+			<p><h2>Detailed View</h2></p>	
+			<table style="width:70%;" id="t1"> 
+				<tr>
+					<th>Value</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>number</td>
+					<td>Defines the aspect value to use</td>
+				</tr>
+				<tr>
+					<td>none</td>
+					<td>Default value. No font size adjustment</td>
+				</tr>
+				<tr>
+					<td>inherit</td>
+					<td>Default value. No font size adjustment</td>
+				</tr>				
+			</table>
+			<hr>
+		</div>
+		<div class="Sample">
+			<div class="text">
+				<div id="column">
+					<p><h3>Sample Code</h3></p>
+					<img src="font-size-adjust.png">
+				</div>
+				<h3>Output</h3>
+				<p>
+				<span style="font-size-adjust: none;">1. This font-size-adjust is default</span><br>
+				<span style="font-size-adjust: 0.65 ">2. This font-size-adjust is set to 0.65 aspect value</span><br>
+				<span style="font-size-adjust: 1.0">3. This font-size-adjust is set to 1.0 aspect value</span><br>
+				<span style="font-size-adjust: inherit;">4. This font-size-adjust is inherited</span><br>
+			</p>
+				
+			</div>
+		</div>
+		<br><br><br><br>
+		<hr><hr>
+		<h1>OTHER PROPERTIES</h1>
+		<div class="desp">
+		</div>
+		<div class="samp">
+			<h2>Syntax</h2>
+			<p> font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;</p>
+			<hr>
+		</div>
+		<div class="attributes">
+
+			<p><h2>Detailed View</h2></p>	
+			<table style="width:70%;" id="t1"> 
+				<tr>
+					<th>Value</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>caption</td>
+					<td>Uses the font that are used by captioned controls (like buttons, drop-downs, etc.)</td>
+				</tr>
+				<tr>
+					<td>icon</td>
+					<td>Uses the font that are used by icon labels</td>
+				</tr>
+				<tr>
+					<td>menu</td>
+					<td>Uses the fonts that are used by dropdown menus</td>
+				</tr>
+				<tr>
+					<td>message-box</td>
+					<td>Uses the fonts that are used by dialog boxes</td>
+				</tr>
+				<tr>
+					<td>status-bar</td>
+					<td>Uses the fonts that are used by the status bar</td>					
+			</table>
+			<hr>
+		</div>
+		<div class="Sample">
+			<div class="text">
+				<div id="column">
+					<p><h3>Sample Code</h3></p>
+					<img src="other-font.png">
+				</div>
+				<h3>Output</h3>
+				<p><strong>Note : </strong>The output of the font is browser dependent.<br>
+				<span style="font: caption;">1. The font used in captioned controls</span><br>
+				<span style="font: icon;">2. The font used in icon labels</span><br>
+				<span style="font: menu;">3. the font used in dropdown menus</span><br>
+				<span style="font: message-box;">4. The font used in dialog boxes</span><br>
+				<span style="font: small-caption;">5. The smaller version of the caption font</span><br>
+				<span style="font: status-bar;">6. The font used in the status bar.</span><br>
+			</p>
+				
+			</div>
+		</div>	
+	</div>
+</body>				
+</html>
